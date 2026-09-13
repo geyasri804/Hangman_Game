@@ -35,7 +35,7 @@ while wrong_guesses < max_wrong_guesses:
 
     # Check if the player has guessed the complete word
     if all(letter in guessed_letters for letter in word):
-        print("Congratulations! ")
+        print("Congratulations! 🎉")
         print("You guessed the word:", word)
         break
 
